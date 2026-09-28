@@ -3270,7 +3270,7 @@
             "missing": {
               "tui": {
                 "title": "This ZCode build has no terminal UI",
-                "description": "Orca's hooks installed correctly \u2014 the zcode on your PATH just cannot open a session. The ZCode desktop app bundles the agent runtime without its terminal UI. Install a zcode that ships the TUI, then run zcode outside Orca to confirm."
+                "description": "Orca's hooks installed correctly — the zcode on your PATH just cannot open a session. The ZCode desktop app bundles the agent runtime without its terminal UI. Install a zcode that ships the TUI, then run zcode outside Orca to confirm."
               }
             }
           },
@@ -11680,7 +11680,9 @@
           "close": "Close",
           "cancel": "Cancel",
           "update": "Update plugin",
-          "install": "Install plugin"
+          "install": "Install plugin",
+          "editorThemesOne": "1 editor theme",
+          "editorThemes": "{{value0}} editor themes"
         },
         "PluginMarketplaceSourceDialog": {
           "addFailed": "Could not add this marketplace. Check the Git URL, ref, and your Git credentials.",
@@ -12195,7 +12197,9 @@
           "darkTitle": "Editor Theme (Dark Mode)",
           "darkDescription": "Theme used by file editors and diff viewers when Orca is in dark mode.",
           "lightTitle": "Editor Theme (Light Mode)",
-          "lightDescription": "Theme used by file editors and diff viewers when Orca is in light mode."
+          "lightDescription": "Theme used by file editors and diff viewers when Orca is in light mode.",
+          "loading": "Loading editor themes…",
+          "unavailable": "Unavailable — {{value0}}"
         },
         "CursorAccountsSection": {
           "source": {
